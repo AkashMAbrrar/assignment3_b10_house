@@ -1,7 +1,9 @@
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {},
+export const content = ["./src/**/*.{html,js}"];
+export const theme = {
+  extend: {
+    backgroundImage: {
+      bg_top_banner: "url('/assets/banner.png')",
+    },
   },
-  plugins: [],
 };
+export const plugins = [];

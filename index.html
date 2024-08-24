@@ -30,6 +30,8 @@
               clifford: "#da373d",
               color_a: "#ABEF5F",
               font_prime: "#494949",
+              heading_color: "#212121",
+              paragraph_clr: "#494949",
             },
           },
         },
@@ -38,7 +40,7 @@
     <title>Assignment B10 House Architecture</title>
   </head>
   <body>
-    <header>
+    <header class="container mx-auto border border-red-100 overflow-x-hidden">
       <!-- navbar start from here -->
       <nav>
         <div class="navbar bg-base-100">
@@ -90,6 +92,29 @@
           </div>
         </div>
       </nav>
+      <!-- top banner section start from here -->
+      <section class="grid grid-cols-1 items-center gap-5 justify-center mt-10">
+        <!-- top image -->
+        <div>
+          <img class="w-96 mx-auto" src="assets/banner.png" alt="" />
+        </div>
+        <!-- texts for top banner section  -->
+
+        <div class="grid grid-cols-1 items-center mt-8">
+          <h2 class="text-center text-5xl font-thin text-heading_color">
+            A barn house of this design has a striking appearance
+          </h2>
+          <p class="text-center font-extralight text-paragraph_clr mt-8">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek <br />
+            metal accents, and large windows that flood the space with natural
+            light.
+          </p>
+          <a class="btn btn-xs bg-color_a mx-auto mt-4" href=""
+            >View Details<i class="fa-solid fa-circle-arrow-up bg-color_a"></i
+          ></a>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
