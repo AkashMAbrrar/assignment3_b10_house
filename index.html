@@ -32,6 +32,7 @@
               font_prime: "#494949",
               heading_color: "#212121",
               paragraph_clr: "#494949",
+              footer_clr: "#1C1C1C",
             },
           },
         },
@@ -62,7 +63,7 @@
             <div class="flex justify-center items-center">
               <i class="fa-solid fa-magnifying-glass"></i>
               <i class="fa-solid fa-cart-shopping"></i>
-              <a class="btn btn-xs px-6 mx-2 bg-color_a">Book Consult</a>
+              <a class="btn btn-xs px-6 mx-2 bg-color_a">Book Consult <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -407,8 +408,7 @@
         </div>
       </section>
       <!-- lets discuss section  -->
-      
-       <section class="bg-[url('assets/bg.jpg')] w-full mx-auto h-screen mt-12">
+       <section class="bg-[url('assets/bg.jpg')] w-full mx-auto  mt-12">
         <div class="flex flex-col justify-start items-center gap-4 p-2">
           <a class="btn btn-xs px-6 mx-2 bg-lime-200 mt-2" href=""><i class="fa-solid fa-arrow-right"> </i>Rinterio News</a>
           <h2 class="text-4xl font-bold">Let's Discuss The Next Project</h2>
@@ -423,9 +423,28 @@
             placeholder="Bio"
             class="textarea textarea-bordered textarea-lg w-3/4 "></textarea>
         </div>
-        <button class="btn btn-block bg-color_a rounded-full">Send Mail<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="btn btn-block bg-color_a rounded-full mb-5">Send Mail<i class="fa-solid fa-arrow-right"></i></button>
        </section>
     </main>
-    <footer></footer>
+    <footer class="w-full mx-auto bg-footer_clr mt-40 pb-12">
+      <!-- top items and text  -->
+      <div class="flex flex-col justify-center items-center gap-4 mt-10">
+        <a class=" btn-xs px-6 mx-2 text-2xl font-light text-white mt-10" href=""><i class="fa-solid fa-arrow-right bg-lime-200 rounded-full p-1 text-black"></i> Rinterio</a>
+
+        <p class="font-light text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <!-- link like a navbar -->
+       <div class="flex lg:justify-evenly mt-10 flex-wrap gap-4">
+        <a class="text-gray-400 font-xl font-light" href="">Home</a>
+        <a class="text-gray-400 font-xl font-light" href="">Services</a>
+        <a class="text-gray-400 font-xl font-light" href="">Portfolio</a>
+        <a class="text-gray-400 font-xl font-light" href="">Blogs</a>
+        <a class="text-gray-400 font-xl font-light" href="">Contact Us</a>
+       </div>
+      <div class="flex justify-center items-center mt-4 ">
+
+        <a href="" class="btn btn-xs px-6 mx-2 bg-color_a">Book Consult <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </footer>
   </body>
 </html>
